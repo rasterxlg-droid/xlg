@@ -1,6 +1,11 @@
-import { redirect } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
 
-// Корень / → всегда /ru
-export default function RootPage() {
-  redirect('/ru');
+export default function Page({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
+
+  return (
+    <div>
+      {/* твой контент */}
+    </div>
+  );
 }
