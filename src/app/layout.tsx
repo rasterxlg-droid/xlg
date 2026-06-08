@@ -1,13 +1,18 @@
+import { ReactNode } from 'react';
 import { setRequestLocale } from 'next-intl/server';
 
 export default function LocaleLayout({
   children,
   params: { locale }
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   params: { locale: string };
 }) {
   setRequestLocale(locale);
 
-  return <>{children}</>;
+  return (
+    <html lang={locale}>
+      <body>{children}</body>
+    </html>
+  );
 }
