@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "services": "Services",
+    "contact": "Contact",
+    "cta": "Get in touch"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "title1": "I build websites",
+    "title2": "that",
+    "titleAccent": "Generate Revenue",
+    "sub": "Landing pages, corporate websites and web applications. Fast, clean code with attention to every detail.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "My services →",
+    "stat1Num": "50+",
+    "stat1Label": "projects delivered",
+    "stat2Num": "4.9",
+    "stat2Label": "Kwork rating",
+    "stat3Num": "3d",
+    "stat3Label": "average delivery"
+  },
+  "services": {
+    "tag": "What I do",
+    "title": "Services &\ndirections",
+    "sub": "Full-cycle development — from design to live deployment.",
+    "order": "Order →",
+    "items": [
+      {
+        "num": "01",
+        "icon": "🚀",
+        "title": "Landing Page",
+        "desc": "High-converting single-page site. Responsive layout, SEO optimization, contact form and CRM integration."
+      },
+      {
+        "num": "02",
+        "icon": "⚡",
+        "title": "Corporate Website",
+        "desc": "Multi-page company site with admin panel, blog and product catalog. Fast loading and strong SEO foundation."
+      },
+      {
+        "num": "03",
+        "icon": "🛒",
+        "title": "E-commerce Store",
+        "desc": "Full-featured shop on a modern stack: product catalog, cart, online payment, customer account and analytics."
+      }
+    ]
+  },
+  "contact": {
+    "tag": "Contact",
+    "title": "Let's discuss\nyour project?",
+    "sub": "Leave a request or write directly — I'll respond within 30 minutes.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone / WhatsApp",
+    "kworkLabel": "Kwork",
+    "whatsapp": "Message on WhatsApp",
+    "formTitle": "Leave a request",
+    "formSub": "Fill out the form — I'll contact you personally",
+    "nameLabel": "Your name",
+    "namePlaceholder": "John Smith",
+    "phoneInputLabel": "Phone",
+    "phonePlaceholder": "+7 (___) ___-__-__",
+    "submit": "Send request",
+    "note": "By clicking, you agree to personal data processing",
+    "success": "✅ Request sent! I'll contact you shortly.",
+    "error": "Send error. Please message me directly on WhatsApp.",
+    "validationName": "Please enter your name",
+    "validationPhone": "Please enter a valid phone number"
+  },
+  "footer": {
+    "rights": "© 2025 XLG.Developer. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "kwork": "Kwork"
+  }
+}
